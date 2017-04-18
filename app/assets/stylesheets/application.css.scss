@@ -32,3 +32,13 @@ h1, h2 ,h3 {
     padding-top: 50px;
     color: white;
 }
+.navbar-default .navbar-brand{
+    color: azure;
+}
+.navbar-default .navbar-nav li a {
+    color: azure;
+}
+.navbar-default .navbar-brand:hover{
+    color: azure;
+    opacity: 0.75;
+}
