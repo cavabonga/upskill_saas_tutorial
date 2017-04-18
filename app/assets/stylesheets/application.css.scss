@@ -55,3 +55,14 @@ h1, h2 ,h3 {
     }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: azure;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid azure;
+    &:hover, &:focus {
+      background-color: #155799 ;  
+    }
+
+}
