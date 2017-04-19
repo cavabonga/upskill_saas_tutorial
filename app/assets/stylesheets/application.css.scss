@@ -64,5 +64,10 @@ h1, h2 ,h3 {
     &:hover, &:focus {
       background-color: #155799 ;  
     }
+}
 
+.btn-default {
+    &:hover {
+        background-color: #dff0d8;
+    }
 }
