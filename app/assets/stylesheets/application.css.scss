@@ -45,6 +45,25 @@ h1, h2 ,h3 {
     padding-top: 50px;
     color: white;
 }
+
+.flash-container {
+    position: absolute;   
+    width: 100%;
+}
+
+.alert-notice, .alert-alert {
+    text-align: center;
+    border-color: rgba(255, 255, 255, 0.29);
+    margin-top: -14px;
+    background: rgba(0, 255, 186, 0.18);
+}
+
+.home-signup-links {
+    margin-top: 30px;
+}
+
+
+
 /* Navbar styles */
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
@@ -72,9 +91,6 @@ h1, h2 ,h3 {
     }
 }
 
-.alert-notice {
-    display: none;
-}
-.home-signup-links {
-    margin-top: 30px;
-}
+
+
+
