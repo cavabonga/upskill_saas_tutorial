@@ -7,8 +7,8 @@ class Users::RegistrationsController < Devise::RegistrationsController
           resource.save_with_subscription
         else
           resource.save
-        end  
-      end  
-    end  
-  end  
+        end
+      end
+    end
+  end
 end
